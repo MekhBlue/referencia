@@ -65,6 +65,11 @@ class User extends BaseController
         }
     }
 
+    public function logout() {
+        session()->destroy();
+        return redirect()->to('/');
+    }
+
     public function login()
     {
         $db = \Config\Database::connect();
@@ -94,11 +99,12 @@ class User extends BaseController
             if($user) { // Létezik-e olyan email
                 if($user['password'] == sha1($password)){
                     $session->set('user', $user);
-                    return redirect()->to('index');
+                    $session->set('isUserLoggedIn', true);
+                    return redirect()->to('/');
                 }
-                return view('login');
+                return redirect()->to('login');
             } else {
-                return view('login');
+                return redirect()->to('login');
             }
         }
     }

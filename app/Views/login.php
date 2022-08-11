@@ -27,9 +27,7 @@
                 <div class="container">
                     <div class="row d-flex justify-content-center">
                         <div class="col-10 col-md-3 d-flex justify-content-center">
-                            <a href="<?php echo base_url('register')?>">
-                            <button type="button" id="toRegisterButton" class="btn btn-primary">Regisztráció</button>
-                            </a>
+                            <a href="<?php echo base_url('register')?>">Regisztráció</a>
                         </div>
                         <div class="col-10 col-md-3 offset-md-6 mt-md-0 mt-4 d-flex justify-content-center">
                             <input type="submit" id="loginButton" value="Bejelentkezés" class="btn btn-primary">
