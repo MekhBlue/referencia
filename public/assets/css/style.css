@@ -1,0 +1,55 @@
+#blog-post{
+    border-radius: 10px;
+}
+.blog-post-text{
+    background-color: white;
+    border-radius: 10px;
+}
+textarea{
+    width: 100% !important;
+}
+form{
+    width: 100% !important;
+}
+.full-width{
+    width: 100% !important;;
+}
+.user-information{
+    background-color: #343434;
+    color: white;
+}
+.color-button{
+    margin: 10px;
+}
+.color-button-default{
+    background-color: #c7c7c7;
+}
+.color-button-red{
+    background-color: red !important;
+}
+.color-button-yellow{
+    background-color: yellow !important;
+}
+.color-button-green{
+    background-color: green !important;
+}
+.color-button-white{
+    background-color: white !important;
+}
+.color-button-black{
+    background-color: black !important;
+}
+.color-button-grey{
+    background-color: grey !important;
+}
+.color-button-blue{
+    background-color: blue !important;
+}
+.color-button-brown{
+    background-color: brown !important;
+}
+.grey-bg{
+    background-color: #c2c2c2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
